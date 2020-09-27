@@ -1,0 +1,31 @@
+body {
+    margin:0; 
+    font-family: Georgia, 'Times New Roman', Times, serif; 
+}
+
+h1 {
+    text-align: center; 
+}
+
+.form-wrap {
+    text-align:center;
+}
+
+form {
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+/*using row wrap for responsiveness*/
+.results {
+    display: flex;
+    flex-flow: row wrap;
+    align-content: space-evenly;
+    justify-content: center;
+}
+
+.results-img {
+    width: 300px;
+    height: 250px;
+    padding: 2px; 
+}
